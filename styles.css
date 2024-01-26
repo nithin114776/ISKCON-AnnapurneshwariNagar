@@ -1,0 +1,31 @@
+.navbar bg-body-tertiary{
+    background: blue
+}
+
+.navbar-brand{
+    text-align: center;
+}
+
+.contact-button {
+    display: block;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    background-color: #492E87;
+    color: #fff;
+    text-decoration: none;
+    transition: all 0.2s ease-in-out;
+  }
+  
+  .contact-button:hover {
+    background-color: #AC7D88;
+  }
+  
+  @media (max-width: 768px) {
+    .contact-button {
+      font-size: 14px;
+    }
+  }
+  
